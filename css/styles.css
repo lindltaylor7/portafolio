@@ -169,6 +169,81 @@ ul {
     font-size: calc(10vw + 1rem);
   }
 }
+
+/*======================
+**** SOBRE NOSOTROS ****
+======================*/
+.aboutus {
+  margin-top: 45px;
+  font-family: Montserrat;
+}
+
+.aboutus--title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.aboutus__title-us {
+  border-bottom: 1px solid #57CBCC;
+}
+
+.aboutus__paragraph {
+  width: 95%;
+  max-width: 370px;
+  color: #8D99AE;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+.aboutus__contain {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.aboutus__list-item {
+  width: 311px;
+  height: 415px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  background: #14213D;
+  border-radius: 8px;
+  justify-content: center;
+  overflow: hidden;
+  float: left;
+}
+
+.aboutus__list-bar {
+  width: 312px;
+  height: 6px;
+
+  background: #57CBCC;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.aboutus__list-grid {
+  width: 129px;
+  height: 70px;
+  margin: 5.5rem;
+  padding: 1rem;
+  border: 0.5px solid #8D99AE;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.aboutus__list-icon {
+  width: 32px;
+  height: 46px;
+  border: 1px solid #57CBCC;
+  box-sizing: border-box;
+  margin-left: 2rem;
+}
+
+
 /*======================
 **** NUESTROS SERVICIOS ****
 ======================*/
